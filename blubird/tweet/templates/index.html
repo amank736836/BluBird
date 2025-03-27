@@ -1,0 +1,8 @@
+{% extends "layout.html" %} {% block title %} Chai aur tweet {% endblock title%}
+{% block content %}
+<h1 class="text-center mt-4">Welcome to Chai's Django Project</h1>
+<div class="container text-center"> 
+    <a href="{% url 'tweet_create' %}" class="btn btn-primary mb-4">Create a tweet</a>
+    <a href="{% url 'tweet_list' %}" class="btn btn-primary mb-4">Go to tweets list</a>
+</div>
+{% endblock content %}
