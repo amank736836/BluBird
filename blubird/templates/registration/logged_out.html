@@ -1,0 +1,6 @@
+{% extends "layout.html" %} {% block content %}
+<h1>Logged Out</h1>
+<p>You have been successfully logged out.</p>
+<p>Don't have an account? <a href="{% url 'register' %}">Register here</a></p>
+<p>Already have an account? <a href="{% url 'login' %}">Login here</a></p>
+{% endblock %}
