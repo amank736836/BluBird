@@ -1,9 +1,9 @@
 from django.shortcuts import render
 from .models import Tweet
 from .forms import TweetForm
+from .forms import UserRegistrationForm
 from django.shortcuts import get_object_or_404, redirect
 from django.contrib.auth.decorators import login_required
-from .forms import UserRegistrationForm
 from django.contrib.auth import login
 
 # Create your views here.
